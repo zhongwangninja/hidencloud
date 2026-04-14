@@ -15,7 +15,7 @@ const os = require('os');
 // Enable stealth plugin
 chromium.use(stealth);
 
-const RENEW_DAYS = 10;
+const RENEW_DAYS = 1;
 const INJECTED_SCRIPT = `
 (function() {
     if (window.self === window.top) return;
